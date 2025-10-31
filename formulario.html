@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de contato</h1>
+    </header>
+    <nav>
+        <a href="historia_missao.html">História e missão </a>
+        <a href="doacao.html">Doação </a>
+        <a href="historia_animais.html">História dos animais já doados </a>
+        <a href="estatistica.html">Estatisticas ACAPRA </a>
+        <a href="noticias.html">Noticias </a>
+        <a href="maustratos.html">Informações sobre maus-tratos </a>
+        <a href="formulario.html">Formulário de contato </a>
+    </nav> 
+    
+    <div class="container">
+        <form>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo"><br>
+            <label for="idade">Idade</label><br>
+            <input type="number" id="Idade" name="Idade" min="0"><br>
+            <label for="TipoAnimal">Tipo de Animal</label><br>
+            <select name="TipoAnimal" id="TipoAnimal"><br>
+                <option value="">Selecione</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+                <option value="Outro">Outro</option>
+            </select><br>
+            <label for="Telefone">Telefone</label><br>
+            <input type="number" id="telefone" name="telefone" placeholder="(__) _____-____"><br>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" id="cidade" name="cidade" placeholder="Informe a cidade"><br>
+            <label for="Estado">Estado</label><br>
+            <input type="text" id="estado" name="estado" placeholder="Informe o estado"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite o email"><br>
+            <label for="motivocontato">Descreva o motivo do contato</label><br>
+            <textarea name="motivo" id="motivo"></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+     <footer class="footer">
+    <div class="footer-container">
+
+      <div class="Maisinformacao">
+        <strong>Mais informações:</strong><br><br>
+        receba noticias exclusivas no email!!
+        <label for="email">E-mail: <span class="requir">*</span></label><br>
+        <input type="email" id="email" name="email" class="colocar-email"><br>
+        <button class="botao">inscreva-se</button>
+      </div>
+
+      <div class="contato-info">
+          <a href="mailto:acaprabrusque@gmai.com">acaprabrusque@gmai.com</a><br><br>
+        </p>
+      </div>
+    </div>
+
+    <div class="social-icones">
+      <a href="https://www.instagram.com/acaprabrusquesc/"><img src="https://cdn-icons-png.flaticon.com/24/174/174855.png" alt="Instagram"></a>
+    </div>
+
+    <div class="Cnpj">
+      <p>CNPJ: 03.772.2512.0001-82</p>
+    </div>
+  </footer>
+</body>
+
+</html>
